@@ -87,3 +87,8 @@
 
   - todo:
     - [ ]
+
+- 1/12:
+  - misc.
+    - point android/local.properies sdk.dir to X:\android_sdk
+    - `X:\android_sdk\tools\bin\sdkmanager --licenses` to accept liscenses
