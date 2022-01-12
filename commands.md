@@ -5,3 +5,6 @@
 - `yarn android`
 - `yarn ios`
 - `yarn web`
+
+# added dependencies
+- `yarn add react-native-svg --save`
