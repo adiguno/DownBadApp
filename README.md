@@ -75,6 +75,22 @@
 
   - feels like the way to go for flexiblility
 
+### Database Tech
+
+- some research [link](https://pusher.com/tutorials/persisting-data-react-native/)
+
+1. React Native SQLite 2
+
+- seems like the db file is somewhere on the phone and persisted there
+- might be a good starter for testing
+  - so that I can migrate/refactor to a cloud database, GCP Cloud SQL or FireStore?
+
+2. Realm
+
+- seems pretty good 🤔
+- 'can be combined with server-side databases to allow seamless synchronization of data offline to the cloud/server database. '
+- 'a fantastic choice if you’ll be dealing with large data in your application.'
+
 ## Dev log
 
 - 1/8:
@@ -92,3 +108,16 @@
   - misc.
     - point android/local.properies sdk.dir to X:\android_sdk
     - `X:\android_sdk\tools\bin\sdkmanager --licenses` to accept liscenses
+- 1/13 - 1/16:
+  - figure out why react native android breaking
+    - something something jcenter down, react native version needs upgrade
+  - actually started a separate repo
+    - to use Expo for development and build
+  - published a dummy build to Google Play Store, pending review
+  - continued development, finished home screen (Create habit), added button for Tracking habit screen
+- 1/17:
+  - App got approved and live on the Google Play Store!!
+  - need some data persistence to store data
+    - and update the necessary permissions
+    - and update the necessary privacy document
+  - Offline mode and data persistence/syncing is a lot of headaches eh? 💀
