@@ -77,7 +77,7 @@
 
 ### Database Tech
 
-- some research [link](https://pusher.com/tutorials/persisting-data-react-native/)
+- some research [link](https://pusher.com/tutorials/persisting-data-react-native/), [link](https://stackoverflow.com/questions/44376002/what-are-my-options-for-storing-data-when-using-react-native-ios-and-android)
 
 1. React Native SQLite 2
 
@@ -91,18 +91,18 @@
 - 'can be combined with server-side databases to allow seamless synchronization of data offline to the cloud/server database. '
 - 'a fantastic choice if you’ll be dealing with large data in your application.'
 
+3. Firebase
+
+- also seems pretty good
+- could also do a serverless backend, using Cloud Functions for Firebase
+- seems popular
+
 ## Dev log
 
 - 1/8:
 
-  ```
-  Feel like NoSQL might be the way to go, but will stick with the naive approach to see how things really will turn out.
-  userId field is ignored for now, though it seems easy to just add another column/field.
-
-  ```
-
-  - todo:
-    - [ ]
+  ~~Feel like NoSQL might be the way to go, but will stick with the naive approach to see how things really will turn out.
+  userId field is ignored for now, though it seems easy to just add another column/field.~~
 
 - 1/12:
   - misc.
@@ -121,3 +121,6 @@
     - and update the necessary permissions
     - and update the necessary privacy document
   - Offline mode and data persistence/syncing is a lot of headaches eh? 💀
+- 1/23:
+  - will try firestore for db
+  - [ ] try to publish to ios
